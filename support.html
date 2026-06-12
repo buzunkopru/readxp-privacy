@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+  ReadXP — Support page.
+  HOST THIS at the same GitHub Pages repo as your Privacy Policy, e.g.:
+     https://buzunkopru.github.io/readxp-privacy/support.html
+  Then paste that URL into App Store Connect → App Information → Support URL.
+
+  NOTE: The Privacy Policy link below is already set to your live URL.
+  If you want to also link your "How to delete your account" page, send me
+  its URL and I'll drop it in (left out for now so there are no broken links).
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReadXP — Support</title>
+  <style>
+    :root{
+      --bg:#f6efe1; --surface:#fffaf0; --ink:#241a0e; --dim:#6b5d49;
+      --accent:#9c7020; --border:#e3d6ba; --shadow:0 8px 28px rgba(60,40,10,.10);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      background:var(--bg); color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      line-height:1.65; -webkit-font-smoothing:antialiased;
+      padding:32px 18px 64px;
+    }
+    .wrap{max-width:680px;margin:0 auto}
+    header{text-align:center;margin-bottom:32px}
+    .logo{font-size:34px}
+    h1{font-size:26px;margin:8px 0 4px;letter-spacing:.3px}
+    .tagline{color:var(--dim);font-size:15px;margin:0}
+    .card{
+      background:var(--surface); border:1px solid var(--border);
+      border-radius:16px; padding:22px 24px; margin:18px 0; box-shadow:var(--shadow);
+    }
+    h2{font-size:18px;margin:0 0 12px;color:var(--accent)}
+    .contact-email{
+      display:inline-block;font-size:18px;font-weight:600;color:var(--accent);
+      text-decoration:none;border-bottom:2px solid var(--accent);padding-bottom:1px;
+    }
+    .muted{color:var(--dim);font-size:14px}
+    details{border-top:1px solid var(--border);padding:14px 0}
+    details:first-of-type{border-top:none}
+    summary{font-weight:600;cursor:pointer;font-size:15.5px;list-style:none}
+    summary::-webkit-details-marker{display:none}
+    summary::before{content:"＋ ";color:var(--accent);font-weight:700}
+    details[open] summary::before{content:"－ "}
+    details p{margin:10px 0 2px;color:#3a2e1c;font-size:15px}
+    a{color:var(--accent)}
+    footer{text-align:center;margin-top:34px;color:var(--dim);font-size:13px}
+    footer a{margin:0 10px;color:var(--dim)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">📚</div>
+      <h1>ReadXP Support</h1>
+      <p class="tagline">Your reading companion — here to help.</p>
+    </header>
+
+    <div class="card">
+      <h2>Contact us</h2>
+      <p>Questions, bugs, or feedback? Email us and we'll get back to you, usually within 1–2 business days.</p>
+      <p><a class="contact-email" href="mailto:readxp.app@gmail.com">readxp.app@gmail.com</a></p>
+      <p class="muted">Support is provided in English.</p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently asked questions</h2>
+
+      <details open>
+        <summary>How do I restore a purchase on a new device?</summary>
+        <p>Open ReadXP, go to the upgrade screen (or <strong>Settings</strong>), and tap
+        <strong>Restore Purchases</strong>. Make sure you're signed in with the same Apple Account
+        you used for the original purchase.</p>
+      </details>
+
+      <details>
+        <summary>How do I manage or cancel my subscription?</summary>
+        <p>On iPhone: open the <strong>Settings</strong> app → tap your name at the top →
+        <strong>Subscriptions</strong> → select <strong>ReadXP</strong>. From there you can change
+        plans or cancel. You can also manage subscriptions directly in the App Store.</p>
+      </details>
+
+      <details>
+        <summary>What does ReadXP Premium include?</summary>
+        <p>Premium unlocks reading classes, unlimited books, custom goals, advanced analytics,
+        premium themes &amp; badges, the avatar shop, and all future premium features. Plans:
+        monthly, annual (with a free trial), or a one-time lifetime purchase.</p>
+      </details>
+
+      <details>
+        <summary>How do I delete my account and data?</summary>
+        <p>In the app, go to <strong>Settings → Delete Account</strong>. This permanently removes
+        your account and associated reading data. You can keep using ReadXP afterward as a guest.</p>
+      </details>
+
+      <details>
+        <summary>How does the barcode scanner work?</summary>
+        <p>When adding a book, tap <strong>Scan</strong> and allow camera access, then point your
+        camera at the book's barcode (ISBN). ReadXP looks up the title automatically. The camera is
+        used only for scanning — nothing is recorded or uploaded.</p>
+      </details>
+
+      <details>
+        <summary>Is my reading data private?</summary>
+        <p>Yes. See our <a href="https://buzunkopru.github.io/readxp-privacy/" target="_blank" rel="noopener">Privacy Policy</a>
+        for exactly what we collect and how it's used. Your reading data is always yours.</p>
+      </details>
+    </div>
+
+    <footer>
+      <div>
+        <a href="mailto:readxp.app@gmail.com">Email</a>·
+        <a href="https://buzunkopru.github.io/readxp-privacy/" target="_blank" rel="noopener">Privacy Policy</a>
+      </div>
+      <p>© 2026 ReadXP. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
