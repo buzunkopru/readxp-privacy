@@ -1,7 +1,7 @@
 # ReadXP — Privacy Policy
 
 **Effective Date:** April 20, 2026  
-**Last Updated:** April 20, 2026  
+**Last Updated:** October 28, 2026  
 **App Name:** ReadXP — RPG Reading Tracker  
 **Package:** com.readxp.app  
 **Developer:** Barbaros Uzunköprü  
@@ -56,6 +56,19 @@ Crashlytics does **not** collect your reading data, email address, or any person
 
 We do **not** integrate any third-party analytics or advertising SDK.
 
+### 2g. Book Search
+When you search for a book, your search words are sent to the public book catalogues the app asks: **Google Books**, **Apple Books** and **Open Library**.
+
+If those do not find your book, the words are also sent to ReadXP's own server (**Firebase Cloud Functions**, Google LLC, in the United States) and from there to **Hardcover** (hardcover.app). The server keeps the books it finds in ReadXP's shared book catalogue, and the words of a search for 30 days, so that the same search by another reader is answered at once. These records are not linked to you.
+
+To use ReadXP's server without signing in, the app creates an **anonymous account** for you. It holds no name, email or other detail about you; it only lets the server count your searches (at most 60 a day) and prevent misuse.
+
+When you add a book by hand that no catalogue knew, its **title, author and page count** go into ReadXP's shared book catalogue so other readers can find it. Your name and account are not stored with it, and your cover photo never is. Anyone can report a wrong or offensive book in the catalogue; a report is stored without your account's identity.
+
+If no catalogue knows the book, the app may look it up on the public websites of the Turkish bookshops **Kitapyurdu** and **D&R**, directly from your device, the way a web browser would. Those sites receive the search like any visit to them.
+
+**Cover photos** you take or choose for your books are stored in your private cloud backup (**Firebase Storage**, Google LLC) when you are signed in; only your account can read them.
+
 ---
 
 ## 3. How We Use Your Data
@@ -67,6 +80,8 @@ We do **not** integrate any third-party analytics or advertising SDK.
 | Email / User ID | Account login and cloud sync |
 | Subscription status | Unlocking Premium features |
 | Cloud data | Cross-device sync and backup |
+| Search words | Finding books (§2g); kept 30 days, not linked to you |
+| Books added by hand (title, author, pages) | ReadXP's shared book catalogue, without your identity |
 
 We do **not** sell, share, or disclose your personal data to third parties except as described in §4.
 
@@ -81,6 +96,12 @@ ReadXP uses the following third-party services, each governed by their own priva
 | Firebase Authentication | Sign-in & user accounts | https://firebase.google.com/support/privacy |
 | Firebase Firestore | Cloud data storage (Premium) | https://firebase.google.com/support/privacy |
 | Firebase Crashlytics | Crash & error diagnostics | https://firebase.google.com/support/privacy |
+| Firebase Cloud Functions | Book search server and shared book catalogue | https://firebase.google.com/support/privacy |
+| Firebase Storage | Your cover photos (private backup) | https://firebase.google.com/support/privacy |
+| Google Books | Book search | https://policies.google.com/privacy |
+| Apple Books | Book search | https://www.apple.com/legal/privacy/ |
+| Open Library | Book search | https://archive.org/about/terms.php |
+| Hardcover | Book search (through ReadXP's server) | https://hardcover.app/privacy |
 | Google Play Billing | Payment processing | https://policies.google.com/privacy |
 | RevenueCat | Subscription management | https://www.revenuecat.com/privacy |
 
@@ -153,3 +174,5 @@ If you have questions about this Privacy Policy, please contact:
 **Barbaros Uzunköprü**  
 Email: **readxp.app@gmail.com**  
 Google Play listing: `com.readxp.app`
+
+Copyright and takedown requests: see [Copyright](copyright).
