@@ -101,7 +101,7 @@ ReadXP uses the following third-party services, each governed by their own priva
 | Google Books | Book search | https://policies.google.com/privacy |
 | Apple Books | Book search | https://www.apple.com/legal/privacy/ |
 | Open Library | Book search | https://archive.org/about/terms.php |
-| Hardcover | Book search (through ReadXP's server) | https://hardcover.app/privacy |
+| Hardcover | Book search (through ReadXP's server) | https://hardcover.app/pages/privacy-policy-2 |
 | Google Play Billing | Payment processing | https://policies.google.com/privacy |
 | RevenueCat | Subscription management | https://www.revenuecat.com/privacy |
 
