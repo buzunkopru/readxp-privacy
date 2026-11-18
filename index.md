@@ -1,8 +1,8 @@
-# ReadXP — Privacy Policy
+# ReadXP - Privacy Policy
 
 **Effective Date:** April 20, 2026  
-**Last Updated:** October 28, 2026  
-**App Name:** ReadXP — RPG Reading Tracker  
+**Last Updated:** November 18, 2026  
+**App Name:** ReadXP - RPG Reading Tracker  
 **Package:** com.readxp.app  
 **Developer:** Barbaros Uzunköprü  
 **Contact:** readxp.app@gmail.com
@@ -20,22 +20,22 @@ By using ReadXP, you agree to the practices described in this policy.
 ## 2. Data We Collect
 
 ### 2a. Data You Provide
-- **Display name** — optional, used only to personalise your in-app character card.
-- **Reading sessions** — book titles, page counts, session duration, notes you add.
-- **Goals** — page targets you set for daily, weekly, monthly, or yearly goals.
+- **Display name** ‚Äî optional, used to personalise your in-app character card. If you join the Tavern, it is also the name other readers see (see ¬ß2g).
+- **Reading sessions** ‚Äî book titles, page counts, session duration, notes you add.
+- **Goals** ‚Äî page targets you set for daily, weekly, monthly, or yearly goals.
 
 ### 2b. Data Stored Locally
-All reading data is stored **on your device only** (via localStorage / Capacitor Preferences). We do not have access to your local data unless you opt into Cloud Sync (see §2d).
+All reading data is stored **on your device only** (via localStorage / Capacitor Preferences). We do not have access to your local data unless you opt into Cloud Sync (see ¬ß2d) or join the Tavern (see ¬ß2g).
 
 ### 2c. Account Data (Optional)
 If you choose to Sign In / Register, we collect:
-- **Email address** — used for authentication only.
-- **User ID** — an anonymous identifier tied to your account.
+- **Email address** ‚Äî used for authentication only.
+- **User ID** ‚Äî an anonymous identifier tied to your account.
 
 Authentication is handled by **Firebase Authentication** (Google LLC). We do not store passwords.
 
 ### 2d. Cloud Sync Data (Premium Feature)
-If you enable Cloud Sync (Premium subscribers only), your reading data — including books, sessions, goals, and character progress — is uploaded to **Firebase Firestore** (Google LLC) and associated with your account. This data is used solely to sync your progress across devices and restore it if you reinstall the app.
+If you enable Cloud Sync (Premium subscribers only), your reading data ‚Äî including books, sessions, goals, and character progress ‚Äî is uploaded to **Firebase Firestore** (Google LLC) and associated with your account. This data is used solely to sync your progress across devices and restore it if you reinstall the app.
 
 ### 2e. Purchase & Subscription Data
 Purchases are processed by **Google Play** and managed via **RevenueCat, Inc.** We receive:
@@ -56,18 +56,28 @@ Crashlytics does **not** collect your reading data, email address, or any person
 
 We do **not** integrate any third-party analytics or advertising SDK.
 
-### 2g. Book Search
-When you search for a book, your search words are sent to the public book catalogues the app asks: **Google Books**, **Apple Books** and **Open Library**.
+### 2g. The Tavern (Optional)
+The Tavern is ReadXP's social place: friends, reading clubs, club chat, notes on rooms and public reading lists. It is **optional**, it needs an account, and it is for readers **aged 15 and over**. Nothing of yours is shared until you join it.
 
-If those do not find your book, the words are also sent to ReadXP's own server (**Firebase Cloud Functions**, Google LLC, in the United States) and from there to **Hardcover** (hardcover.app). The server keeps the books it finds in ReadXP's shared book catalogue, and the words of a search for 30 days, so that the same search by another reader is answered at once. These records are not linked to you.
+**Joining.** To join you choose a display name and a **username** (@name, unique, shown to everyone in the Tavern), and you give your **year of birth**. Only the year is kept, with your own data; it is used to keep the Tavern for readers aged 15 and over and is never shown to anyone. By joining you agree to the rules of the Tavern, which are shown in the app.
 
-To use ReadXP's server without signing in, the app creates an **anonymous account** for you. It holds no name, email or other detail about you; it only lets the server count your searches (at most 60 a day) and prevent misuse.
+**What other readers in the Tavern can see**
+- Your name and @username, your character card (class, level, title and the look of your reader), your room as a picture (drawn on their phone from the app's own art; no image is sent), the book you are reading if it came from the book catalogue, and the pages you read each week.
+- Your Library (titles, authors, covers and decorations as you arranged them) if you allow it: Settings let you show it to everyone, to friends only, or to nobody. Your notes, dates and reading sessions are never shown.
+- Readers cannot be listed or searched by name: a reader is found only by their exact username.
 
-When you add a book by hand that no catalogue knew, its **title, author and page count** go into ReadXP's shared book catalogue so other readers can find it. Your name and account are not stored with it, and your cover photo never is. Anyone can report a wrong or offensive book in the catalogue; a report is stored without your account's identity.
+**What you write in the Tavern** is shown to others and stored in **Firebase Firestore** (Google LLC):
+- **Clubs** you found or join: the club's name, description, crest, language and genre, its members, the pages each member reads per week, the weekly ranking and the week's champion.
+- **Club activity**: when you finish a book, log pages, complete a month, join a club or share a list, a short line goes to your clubs (with the book, if it came from the catalogue, and the pages), and members can leave a stamp (a small reaction) on it.
+- **Club chat** messages (up to 500 characters) and **notes on rooms** (up to 100 characters, one a day per room; each reader chooses who may write on their room).
+- **Public reading lists**: a title, a description and books from the catalogue. Others can save your lists.
+- **Friend requests and friendships.** You choose who can send you a request (everyone, members of your clubs, or nobody); a code from a friend always works.
 
-If no catalogue knows the book, the app may look it up on the public websites of the Turkish bookshops **Kitapyurdu** and **D&R**, directly from your device, the way a web browser would. Those sites receive the search like any visit to them.
+**What nobody else ever sees.** Your email address, your notes, your reading sessions, your shards, your year of birth, books you typed in yourself and your own cover photos.
 
-**Cover photos** you take or choose for your books are stored in your private cloud backup (**Firebase Storage**, Google LLC) when you are signed in; only your account can read them.
+**Reports, blocking and moderation.** Any name, club, list, chat message or room note can be reported from the app. Reports are anonymous to the reported reader and are kept for review. Words reported by two readers, and names, clubs or lists reported by three, are hidden until we review them; we may remove content, and readers who break the rules can be banned from the Tavern. You can block a reader: neither of you can then reach the other. You can also write to us at **readxp.app@gmail.com**.
+
+**Leaving.** Settings ‚Üí Tavern ‚Üí switch off **In the Tavern** (and confirm) leaves the Tavern: your club memberships and club activity, your chat messages and room notes, your public reading lists, your shared Library, your username, your card and your friendships are removed. Deleting your account, or all your data, does the same.
 
 ---
 
@@ -75,15 +85,15 @@ If no catalogue knows the book, the app may look it up on the public websites of
 
 | Data | Purpose |
 |---|---|
-| Display name | Shown on your in-app character card |
+| Display name and @username | Shown on your in-app character card; shown to readers in the Tavern if you join it (¬ß2g) |
+| Tavern card, clubs, chat, room notes, lists (¬ß2g) | Shown to other readers in the Tavern; reports used for moderation |
+| Year of birth (Tavern only) | Keeping the Tavern for readers aged 15 and over; never shown |
 | Reading sessions / books | Powering stats, XP, goals, and achievements |
 | Email / User ID | Account login and cloud sync |
 | Subscription status | Unlocking Premium features |
 | Cloud data | Cross-device sync and backup |
-| Search words | Finding books (§2g); kept 30 days, not linked to you |
-| Books added by hand (title, author, pages) | ReadXP's shared book catalogue, without your identity |
 
-We do **not** sell, share, or disclose your personal data to third parties except as described in §4.
+We do **not** sell, share, or disclose your personal data to third parties except as described in ¬ß4. If you join the Tavern, other readers see what ¬ß2g lists.
 
 ---
 
@@ -94,14 +104,10 @@ ReadXP uses the following third-party services, each governed by their own priva
 | Service | Purpose | Policy URL |
 |---|---|---|
 | Firebase Authentication | Sign-in & user accounts | https://firebase.google.com/support/privacy |
-| Firebase Firestore | Cloud data storage (Premium) | https://firebase.google.com/support/privacy |
+| Firebase Firestore | Cloud data storage (Premium); Tavern records (¬ß2g) | https://firebase.google.com/support/privacy |
 | Firebase Crashlytics | Crash & error diagnostics | https://firebase.google.com/support/privacy |
-| Firebase Cloud Functions | Book search server and shared book catalogue | https://firebase.google.com/support/privacy |
-| Firebase Storage | Your cover photos (private backup) | https://firebase.google.com/support/privacy |
-| Google Books | Book search | https://policies.google.com/privacy |
-| Apple Books | Book search | https://www.apple.com/legal/privacy/ |
-| Open Library | Book search | https://archive.org/about/terms.php |
-| Hardcover | Book search (through ReadXP's server) | https://hardcover.app/pages/privacy-policy-2 |
+| Google Books | Looking up the title and cover of the book a friend is reading (¬ß2g) | https://policies.google.com/privacy |
+| Apple (Apple Books look-up) | Looking up the title and cover of the book a friend is reading (¬ß2g) | https://www.apple.com/legal/privacy/ |
 | Google Play Billing | Payment processing | https://policies.google.com/privacy |
 | RevenueCat | Subscription management | https://www.revenuecat.com/privacy |
 
@@ -111,13 +117,13 @@ ReadXP uses the following third-party services, each governed by their own priva
 
 ReadXP offers optional Premium subscriptions:
 
-- **Monthly** — auto-renewing, billed monthly via Google Play
-- **Annual** — auto-renewing, billed yearly via Google Play
-- **Lifetime** — one-time purchase, no renewal
+- **Monthly** ‚Äî auto-renewing, billed monthly via Google Play
+- **Annual** ‚Äî auto-renewing, billed yearly via Google Play
+- **Lifetime** ‚Äî one-time purchase, no renewal
 
 **Auto-renewal:** Monthly and Annual subscriptions auto-renew unless cancelled at least 24 hours before the end of the current billing period.
 
-**Cancellation:** Manage or cancel your subscription at any time via **Google Play → Subscriptions**. Cancellation takes effect at the end of the current billing period — you retain Premium access until then.
+**Cancellation:** Manage or cancel your subscription at any time via **Google Play ‚Üí Subscriptions**. Cancellation takes effect at the end of the current billing period ‚Äî you retain Premium access until then.
 
 **Refunds:** Refund requests are handled by Google Play in accordance with their refund policy.
 
@@ -128,14 +134,15 @@ ReadXP offers optional Premium subscriptions:
 ## 6. Data Retention
 
 - **Local data** is retained on your device until you uninstall the app or clear app data.
-- **Cloud data** (if Cloud Sync is enabled) is retained for as long as your account exists. You may delete your account and all associated cloud data at any time via Settings → Account → Delete Account.
+- **Cloud data** (if Cloud Sync is enabled) is retained for as long as your account exists. You may delete your account and all associated cloud data at any time via Settings ‚Üí Account ‚Üí Delete Account.
 - **Purchase records** are retained by Google Play and RevenueCat per their own retention policies.
+- **Tavern records** (¬ß2g) are kept while you are in the Tavern. Club chat messages and room notes are deleted automatically after one year. Reports are kept while they are reviewed. Leaving the Tavern or deleting your account removes your records as ¬ß2g describes.
 
 ---
 
 ## 7. Children's Privacy
 
-ReadXP is rated **Everyone** and does not knowingly collect personal information from children under 13. The app does not require account creation to use core features. If you believe a child under 13 has provided us personal data, please contact us at the email above to request deletion.
+ReadXP is rated **Everyone** and does not knowingly collect personal information from children under 13. The Tavern (¬ß2g), where readers can see each other and write to each other, is only for readers aged 15 and over: the app asks for the year of birth before anyone can join, and closes the Tavern to younger readers. The app does not require account creation to use core features. If you believe a child under 13 has provided us personal data, please contact us at the email above to request deletion.
 
 ---
 
@@ -145,8 +152,9 @@ Depending on your jurisdiction, you may have the right to:
 - **Access** the personal data we hold about you
 - **Correct** inaccurate data
 - **Delete** your data (including your cloud sync data and account)
-- **Export** your data (available in Settings → Data → Export for Premium users)
+- **Export** your data (available in Settings ‚Üí Data ‚Üí Export for Premium users)
 - **Opt out** of cloud sync at any time by disabling it in Settings
+- **Leave the Tavern** at any time in Settings ‚Üí Tavern (see ¬ß2g)
 
 To exercise these rights, contact us at **readxp.app@gmail.com**.
 
@@ -156,7 +164,8 @@ To exercise these rights, contact us at **readxp.app@gmail.com**.
 
 We use industry-standard security practices:
 - Firebase data is protected by Google's security infrastructure
-- Firestore data is access-controlled per user ID (you can only read/write your own data)
+- Firestore data is access-controlled per user ID. Your reading data (the cloud backup) can be read and written only by you. Your Tavern card can be written only by you
+- The database refuses anything on a Tavern card except a name, a username, numbers and short codes that stand for picks from the app's own art, so no link or photo can be put there; chat messages and room notes are limited in length
 - We do not log or store plain-text passwords
 
 ---
@@ -171,8 +180,6 @@ We may update this Privacy Policy from time to time. If we make material changes
 
 If you have questions about this Privacy Policy, please contact:
 
-**Barbaros Uzunköprü**  
+**Barbaros Uzunk√∂pr√º**  
 Email: **readxp.app@gmail.com**  
 Google Play listing: `com.readxp.app`
-
-Copyright and takedown requests: see [Copyright](copyright).
