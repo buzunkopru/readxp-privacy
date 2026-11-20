@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "android": {
+    "version": "2.0.0",
+    "versionCode": 49
+  },
+  "ios": {
+    "version": "2.0.0"
+  },
+  "whatsNew": {
+    "en": "Welcome to the town: journeys in the Reach, companions in your room, the Tavern with clubs and friends, the Store as a living street, and gear from iron to gold.",
+    "tr": "Kasabaya hoş geldin: Uç Diyar’da yolculuklar, odanda arkadaşların, kulüpleri ve arkadaşlarıyla Han, canlı bir sokak olan Mağaza ve demirden altına ekipman.",
+    "de": "Willkommen im Städtchen: Reisen in die Mark, Begleiter in deinem Zimmer, die Taverne mit Clubs und Freunden, der Laden als lebendige Straße und Ausrüstung von Eisen bis Gold.",
+    "es": "Bienvenido al pueblo: viajes por La Marca, compañeros en tu habitación, la Taberna con clubes y amigos, la tienda como una calle viva y equipo del hierro al oro.",
+    "fr": "Bienvenue au bourg : des voyages dans les Marches, des compagnons dans votre pièce, la Taverne avec clubs et amis, la boutique en rue vivante et un équipement du fer à l'or."
+  }
+}
