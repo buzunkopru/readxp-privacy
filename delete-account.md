@@ -4,7 +4,7 @@
 **Package:** com.readxp.app
 **Developer:** Barbaros Uzunköprü
 **Contact:** readxp.app@gmail.com
-**Last Updated:** November 18, 2026
+**Last Updated:** November 20, 2026
 
 ---
 
@@ -21,7 +21,7 @@ If you still have ReadXP installed:
 3. Confirm the deletion twice and re-authenticate when prompted.
 4. Your account and cloud data are deleted immediately.
 
-If you joined the Tavern, the app first takes you out of it: your clubs, your chat messages and room notes, your public reading lists, your shared Library, your username and your card. If your messages, notes or lists cannot be removed (for example, there is no connection), the deletion stops, nothing is deleted, and you can try again.
+If you joined the Tavern, the app first takes you out of it: your clubs, your chat messages and room notes, your public reading lists, your Reader of the Month records, your shared Library, your username and your card. If your messages, notes, lists or month records cannot be removed (for example, there is no connection), the deletion stops, nothing is deleted, and you can try again.
 
 ### Option 2 — By email (for users who have already uninstalled)
 
@@ -42,7 +42,7 @@ When your account is deleted we remove:
 - Your Firebase Authentication record (email, user ID)
 - Your cloud-synced reading data stored in Firebase Firestore (books, sessions, notes, goals, character progress, badges)
 - The cover images you uploaded for your books, stored in Firebase Storage (app version 1.7 and later)
-- Your Tavern records, if you joined the Tavern: your card (your name, your @username, your class and level, your room), your friendships and friend requests, your club memberships, your pages in each club's weeks and your lines in each club's activity (with the stamps you left), your club chat messages, the notes you wrote on rooms and the notes on yours, your public reading lists, your shared Library, and your list of blocked readers. Other readers' phones stop showing you the next time they refresh.
+- Your Tavern records, if you joined the Tavern: your card (your name, your @username, your class and level, your room), your friendships and friend requests, your club memberships, your pages in each club's weeks and your lines in each club's activity (with the stamps you left), your club chat messages, the notes you wrote on rooms and the notes on yours, your public reading lists, your Reader of the Month records (the pages you read each month; a month's first three stay as that month's record, and we remove your name from one when you write to us), your shared Library, and your list of blocked readers. Other readers' phones stop showing you the next time they refresh. Emoji reactions you left on other members' chat messages stay on those messages without your name (they show as "A reader") until the messages are deleted, at most a year later.
 
 If you also want to remove the app's local copy from a device, uninstall the app or clear its data from Android Settings → Apps → ReadXP → Storage → Clear data.
 
@@ -50,7 +50,7 @@ If you also want to remove the app's local copy from a device, uninstall the app
 
 You can leave the Tavern and keep your account. In the app, go to **Settings → Tavern**, switch off **In the Tavern** and confirm.
 
-This removes right away your club memberships, your chat messages and room notes, your public reading lists, your shared Library, your username, your card and your friendships. Your account and your reading data stay. If you join again later, you start fresh: old friendships, clubs and lists do not come back.
+This removes right away your club memberships, your chat messages and room notes, your public reading lists, your Reader of the Month records, your shared Library, your username, your card and your friendships. Your account and your reading data stay. If you join again later, you start fresh: old friendships, clubs and lists do not come back.
 
 ## What is retained
 
